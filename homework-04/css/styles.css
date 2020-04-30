@@ -54,7 +54,7 @@ a {
     margin-right: 35px;
 }
 .navigation_link {
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     font-size: 14px;
     line-height: 24px;
     color: #0f0101;
@@ -69,7 +69,7 @@ a {
 }
 /* section */
 h2 {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 48px;
     position: relative;
     text-align: center;
@@ -77,6 +77,9 @@ h2 {
     text-transform: uppercase;
     font-weight: bolder;
   }
+a.name {
+  color: #ffffff;
+}
   .title:after {
     content: "";
     display: block;
@@ -112,20 +115,28 @@ h2 {
   h3 {
     float: left;
     font-family: 'Roboto', regular;
+    color: #ffffff;
     font-size: 18px;
     line-height: 32px;
-    color: #ffffff;
     margin-left: 12px;
     align-items: center;
     font-family: 'Roboto', black;
-    text-transform: uppercase;
-    font-weight: bolder;
+    text-transform: uppercase; 
   }
   
   .icon {
     float: right;
     width: 55px;
     background-color:  rgba(255, 255, 255, 0.44);
+    line-height: 34px;
+    text-align: center;
+  }
+  .price {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 32px;
+    font-family: 'Roboto', regular;
   }
   .article:hover {
     background-color: #1abc9c;
@@ -178,13 +189,17 @@ h2 {
     background-color: #4ec6ab;
     color: #ffffff;
     margin-top: 16px;
-    line-height: 26px;
     margin-bottom: 80px;
     text-align: center;
     padding-top: 12px;
     padding-bottom: 12px;
   }
-  p {font-family: 'Open Sans', regular;
+  a.botton {
+    font-family: 'Open Sans', regular;
+    font-size: 16px;
+  }
+  p {
+    font-family: 'Open Sans', regular;
     font-size: 14px;
     color: #605e5e;
     margin-top: 37px;
