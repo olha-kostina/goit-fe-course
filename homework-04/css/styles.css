@@ -20,6 +20,15 @@
     margin-top: 36px;
     float: left;
   }
+.logo::first-letter {
+  color: #4ec6ab;
+  font-family: 'Roboto';
+  font-size: 30px;
+  text-transform: uppercase;
+  list-style: none;
+  text-decoration: none;
+  font-weight: 400;
+  }
 b {
     color: #4ec6ab;
     }
@@ -67,7 +76,6 @@ h2 {
     color: #515151;
     text-transform: uppercase;
     font-weight: bolder;
-    margin-top: 105px;
   }
   .title:after {
     content: "";
@@ -75,9 +83,13 @@ h2 {
     width: 160px;
     height: 8px;
     background-color: #1abc9c;
-    margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 32px;
     margin-bottom: 90px;
+  }
+  section {
+    padding-top: 105px;
   }
   .catalog {
       width: 1110px;
@@ -109,6 +121,7 @@ h2 {
     text-transform: uppercase;
     font-weight: bolder;
   }
+  
   .icon {
     float: right;
     width: 55px;
@@ -148,7 +161,6 @@ h2 {
     font-size: 16px;
     color: #605e5e;
     margin-top: 5px;
-    margin-right: 42px;
     font-weight: 700;
   }
   h5::after {
