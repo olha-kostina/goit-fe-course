@@ -9,7 +9,7 @@
   }
   /* header */
 .logo {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 30px;
     text-transform: uppercase;
     justify-content: space-between;
@@ -22,16 +22,13 @@
   }
 .logo::first-letter {
   color: #4ec6ab;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-size: 30px;
   text-transform: uppercase;
   list-style: none;
   text-decoration: none;
   font-weight: 400;
   }
-b {
-    color: #4ec6ab;
-    }
 ul {
     list-style: none;
 }
@@ -54,7 +51,7 @@ a {
     margin-right: 35px;
 }
 .navigation_link {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 24px;
     color: #0f0101;
@@ -65,7 +62,7 @@ a {
     color: #1abc9c;
 }
 .header {
-    padding: 38px;
+    padding: 38px 0;
 }
 /* section */
 h2 {
@@ -114,7 +111,7 @@ a.name {
   }
   h3 {
     float: left;
-    font-family: 'Roboto', regular;
+    font-family: 'Roboto', sans-serif;
     color: #ffffff;
     font-size: 18px;
     line-height: 32px;
@@ -136,7 +133,7 @@ a.name {
     text-transform: uppercase;
     font-size: 18px;
     line-height: 32px;
-    font-family: 'Roboto', regular;
+    font-family: 'Roboto', sans-serif;
   }
   .article:hover {
     background-color: #1abc9c;
@@ -145,7 +142,7 @@ a.name {
     background-color:  #7fd9c7;
   }
   h4 {
-    font-family: 'Roboto', regular;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: hsl(0, 0%, 100%);
     text-align: center;
@@ -167,7 +164,7 @@ a.name {
     margin-right: 30px;
   }
   h5 {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-weight: 200;
     font-size: 16px;
     color: #605e5e;
@@ -195,11 +192,11 @@ a.name {
     padding-bottom: 12px;
   }
   a.botton {
-    font-family: 'Open Sans', regular;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
   }
   p {
-    font-family: 'Open Sans', regular;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: #605e5e;
     margin-top: 37px;
