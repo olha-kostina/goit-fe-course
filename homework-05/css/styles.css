@@ -108,6 +108,7 @@ a.name {
     padding: 0;
     margin: 0;
     background-color: #323232;
+    position: relative;
   }
   .article:not(:nth-child(4n)) {
     margin-right: 30px;
@@ -147,6 +148,9 @@ a.name {
   .article:hover .icon {
     background-color:  #7fd9c7;
   }
+  .article:hover .overlay {
+    display: block;
+  }
   h4 {
     font-family: 'Roboto', regular;
     font-size: 18px;
@@ -159,6 +163,37 @@ a.name {
     background-color: #e9f0fd;
     padding-top: 108px;
     margin: 0;
+}
+/* hover*/
+.overlay {
+  width: 255px;
+  height: 282px;
+  background-color: rgba(0, 0, 0, 0.55);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 10px solid rgba(255, 255, 255, 0.55);
+  background-clip: padding-box;
+  display: none;
+}
+.overlay_link {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: #1abc9c;
+}
+.overlay_link_heart {
+  background-image: url("../img/heart.png");
+}
+.overlay_link_arrow {
+  background-image: url("../img/arrow.png");
+}
+.overlay_link_arrow {
+  background-image: url("../img/clock.png");
+}
+.overlay_list_item {
+  float: left;
+
 }
   /* footer */
   footer {
