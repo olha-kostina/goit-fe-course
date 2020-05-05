@@ -234,6 +234,25 @@ a.name {
 }
 .overlay_list_item {
   display: block;
+  float: left;
+}
+.overlay_list_item:not(:last-child) {
+  margin-right: 9px;
+}
+button {
+  background-color: rgba(255, 255, 255, 0);
+}
+button:hover {
+ background-color: #1abc9c;
+}
+.overlay_list {
+  position: absolute;
+  left: 35px;
+  top: 90px; 
+}
+.heart {
+  background-image: url('../img/heart.png');
+  background-size: contain;
   width: 50px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 1);
@@ -241,26 +260,44 @@ a.name {
   background-repeat: no-repeat;
   background-position: center;
 }
-.overlay_list_item:not(:last-child) {
-  margin-right: 9px;
+.arrow {
+  background-image: url('../img/arrow.png');
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  float: left;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.overlay_list {
-  position: absolute;
-  left: 35px;
-  top: 90px; 
+.clock {
+  background-image: url('../img/clock.png');
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  float: left;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.overlay_list_item:last-child {
+.box {
+  background-image: url('../img/box.png');
+  background-size: contain;
+  background-position: left;
+  border: 1px solid rgba(255, 255, 255, 1);
+  float: left;
+  background-repeat: no-repeat;
   margin-top: 7px;
   width: 167px;
+  height: 50px;
   background-color: #323232;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   text-transform: uppercase;
   color: #ffffff;
-}
-.heart {
-  background-image: url('../img/heart.png');
-  background-size: contain;
+  text-align: center;
+  line-height: 50px;
+  padding-left: 20px;
 }
   /* footer */
   footer {
