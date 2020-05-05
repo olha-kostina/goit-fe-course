@@ -70,20 +70,18 @@ a {
 /* slider */
 .slider {
  position: relative; 
- 
 }
 .top {
   position: absolute;
-  width: 730px;
   z-index: 100;
-  top:50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: 260px;
 }
 
 img {
   display: block;
+  width: 100%;
 }
 .slider-img::before {
   width: 100%;
@@ -95,32 +93,37 @@ img {
 }
 h1 {
   font-family: 'Roboto', sans-serif;
-  font-size: 48px;
+  font-size: 60px;
   text-transform: uppercase;
   font-weight: bolder;
   color: #ffffff;
-  text-align: center;
 }
 p {
   font-family: 'Roboto', sans-serif;
+  font-size: 24px;
   text-transform: uppercase;
   color: #ffffff;
+  font-weight: lighter;
 }
-
+.banner {
+  position: absolute;
+  width: 1110px;
+  z-index: 200;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .banner-ctr {
   display: block;
   width: 104px;
   height: 104px;
   background-color: rgba(26, 188, 156, 0.65);
-  position: absolute;
-  z-index: 200;
-  top: 225px;
 }
 .banner-ctr-before {
-  left: 245px;
+  float: left;
 }
 .banner-ctr-after {
-  right: 245px;
+  float: right;
 }
 .banner-ctr:hover {
   background-color: rgba(26, 188, 156, 1)
@@ -229,29 +232,35 @@ a.name {
   background-clip: padding-box;
   display: none;
 }
-.overlay_list_item{
+.overlay_list_item {
   display: block;
   width: 50px;
   height: 50px;
-  background-color: #1abc9c;
+  border: 1px solid rgba(255, 255, 255, 1);
   float: left;
   background-repeat: no-repeat;
   background-position: center;
 }
-.overlay_link_heart {
-  background-image: url("../img/heart.png");
-}
-.overlay_link_arrow {
-  background-image: url("../img/arrow.png");
-}
-.overlay_link_arrow {
-  background-image: url("../img/clock.png");
+.overlay_list_item:not(:last-child) {
+  margin-right: 9px;
 }
 .overlay_list {
   position: absolute;
-  left: 44px;
-  top: 90px;
-  
+  left: 35px;
+  top: 90px; 
+}
+.overlay_list_item:last-child {
+  margin-top: 7px;
+  width: 167px;
+  background-color: #323232;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.heart {
+  background-image: url('../img/heart.png');
+  background-size: contain;
 }
   /* footer */
   footer {
@@ -264,7 +273,6 @@ a.name {
     font-family: 'OpenSans', sans-serif;
     font-size: 16px;
     color: #ffffff;
-
   }
   .p2 {
     color: #46bfa9;
