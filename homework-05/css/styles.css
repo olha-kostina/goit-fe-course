@@ -128,8 +128,8 @@ p {
   background-color: rgba(26, 188, 156, 1)
 }
 button { 
-  border: none; 
-  outline: none; 
+  border: 0; 
+  outline: 0; 
 }
  /* catalog */
 
