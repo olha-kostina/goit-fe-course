@@ -127,6 +127,10 @@ p {
 .banner-ctr:hover {
   background-color: rgba(26, 188, 156, 1)
 }
+button { 
+  border: none; 
+  outline: none; 
+}
  /* catalog */
 
 h2 {
