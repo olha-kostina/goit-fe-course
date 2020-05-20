@@ -170,13 +170,11 @@ h3 {
     color: #333333;
     text-transform: uppercase;
     font-size: 14px;
-    font-weight: light;
   }
   p {
     font-family: Roboto,sans-serif;
     color: #252525;
     font-size: 14px;
-    font-weight: light;
   }
 /* team */
 .group {
@@ -216,7 +214,6 @@ h3 {
     color: #5d5d5d;
     text-transform: uppercase;
     font-size: 14px;
-    font-weight: light;
     text-align: center;
     margin-top: 30px;
   }
@@ -224,7 +221,6 @@ h3 {
     font-family: Roboto;
     color: #4a4a4a;
     font-size: 14px;
-    font-weight: light;
     font-style: italic;
     text-align: center;
     margin-top: 10px;
@@ -234,14 +230,12 @@ h3 {
     box-shadow: 10px 10px 0 0 #95e1d3;
   } 
   .card:hover .overlay {
-    transform: translate3d(-10px, -10px, 0);
     visibility: visible;
   }
   .overlay {
     width: 380px;
     height: 472px;
-    background: linear-gradient(to bottom, #f38181, #fce38a);
-    opacity: 0.9;
+    background: linear-gradient(to bottom, rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9));
     transition: transform .1s linear;
     visibility: hidden;
   }
@@ -281,6 +275,11 @@ h3 {
     justify-content: center;
     align-items: center;
   }
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
 /* footer */
 .down {
   display: flex;
@@ -299,8 +298,9 @@ hr {
   color: #ffffff;
   text-transform: uppercase;
   font-size: 14px;
-  font-weight: light;
   text-align: center;
+  padding-left: 33px;
+  padding-right: 33px;
 }
 .contacts {
   font-family: Montserrat, sans-serif;
@@ -309,4 +309,8 @@ hr {
 }
 .mark {
   color: #f38181;
+}
+.answer {
+  display: flex;
+  height: 40px;
 }
