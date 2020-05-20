@@ -256,7 +256,7 @@ h3 {
     background-image: url("../img/twitter.png");
   }
   .pinterest {
-    background-image: url("../img/facebook.png");
+    background-image: url("../img/pinterest.png");
   }
   .instagram {
     background-image: url("../img/instagram.png");
@@ -301,6 +301,7 @@ hr {
   text-align: center;
   padding-left: 33px;
   padding-right: 33px;
+  border: 0;
 }
 .contacts {
   font-family: Montserrat, sans-serif;
@@ -313,4 +314,9 @@ hr {
 .answer {
   display: flex;
   height: 40px;
+}
+input::placeholder {
+  font-family: Roboto, sans-serif;
+  color: #cccccc;
+  font-style: italic;
 }
