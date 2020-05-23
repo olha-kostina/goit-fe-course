@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* yellowtail-regular - latin */
+@font-face {
+    font-family: 'Yellowtail';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Yellowtail Regular'), local('Yellowtail-Regular'),
+         url('../fonts/yellowtail-v10-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/yellowtail-v10-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+         url('../fonts/montserrat-v14-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v14-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-600 - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'),
+         url('../fonts/montserrat-v14-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v14-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-800 - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'),
+         url('../fonts/montserrat-v14-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v14-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* damion-regular - latin */
+@font-face {
+    font-family: 'Damion';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Damion'),
+         url('../fonts/damion-v9-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/damion-v9-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-slab-regular - latin */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/roboto-slab-v11-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-slab-v11-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-slab-600 - latin */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''),
+       url('../fonts/roboto-slab-v11-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-slab-v11-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-slab-800 - latin */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 800;
+  src: local(''),
+       url('../fonts/roboto-slab-v11-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-slab-v11-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+  .container {
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+    }
+  /*header */
+  .intro {
+    display: flex;
+    padding-top: 53px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    font-family: 'Yellowtail';
+    color: #fed136;
+    font-size: 26px;
+  }
+  .menu {
+    display: flex;
+    text-transform: uppercase;
+    list-style: none;
+  }
+  .menu a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    color: #222222;
+    position: relative;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .menu a:hover {
+    color: #fed136;
+  }
+  
+  .item:not(:last-child) {
+    margin-right: 56px;
+  }
+  /* section one */
+  .first {
+    text-align: center;
+}
+.title {
+    margin-top: 130px;
+    margin-bottom: 122px;
+}
+.subtitle {
+    font-size: 40px;
+    font-family: 'Montserrat';
+    color: #333333;
+    text-transform: uppercase;
+}
+.undertitle {
+  display:  block;
+  font-family: 'Damion';
+  color: #777777;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.services {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 83px;
+}
+.services_list {
+  width: 290px;
+  display: flex;
+  Flex-direction:  column;
+  Align-items: center;
+}
+.services_list::before {
+  display: block;
+  content: "";
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb( 254, 209, 54 );
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+.services_list:first-child::before {
+  background-image: url("../img/e-commerce.png");
+}
+.services_list:nth-child(2)::before {
+  background-image: url("../img/laptop.png");
+}
+.services_list:last-child::before {
+  background-image: url("../img/locked.png");
+}
+.list_title {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: #222222;
+  font-size: 18px;
+  padding-top: 27px;
+}
+.list_discription {
+  font-family: 'Roboto Slab';
+  font-weight: 400 ;
+  color: #777777;
+  font-size: 14px;
+  padding-top: 20px;
+}
+/* second section */
+.firstform {
+    text-align: center;
+}
+.form-list {
+    padding-top: 110px;
+    background-color:#222222;
+    background-size: cover;
+    padding-bottom: 115px;
+}
+.subtitleform {
+    font-size: 40px;
+    font-family: 'Montserrat';
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.undertitle {
+  display:  block;
+  font-family: 'Damion';
+  color: #777777;
+  font-size: 16px;
+}
+.contact-form-input {
+  display: block;
+  padding-left: 20px;
+  height: 52px;
+  width: 455px;
+  margin-top: 28px;
+}
+.contact-form {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 49px;
+}
+.text-message {
+  margin: 28px;
+  width: 455px;
+  height: 212px;
+  padding-left: 20px;
+  padding-top: 20px;
+  resize: none;
+}
+.send {
+  display: flex;
+  justify-content: center;
+}
+.send-answer {
+  background-color: #fed136;
+  font-size: 18px;
+  font-family: 'Montserrat';
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 242px;
+  height: 65px;
+  border: none;
+  border-radius: 3px;
+}
+input::placeholder {
+  font-family: 'Montserrat';
+  color: #bbbbbb;
+  font-style: 800;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+textarea::placeholder {
+  font-family: 'Montserrat';
+  color: #bbbbbb;
+  font-style: 800;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+/* если єтот кусочек закомитить форма работает но нехватает глобуса, а если он есть форма как будто не работает */
+.form-list::before {
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-image: url("../img/globus.png");
+  opacity: 0.3;
+  position: absolute;  
+}
