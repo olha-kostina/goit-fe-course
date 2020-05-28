@@ -90,6 +90,8 @@
     font-family: 'Yellowtail';
     color: #fed136;
     font-size: 26px;
+    list-style: none;
+    text-decoration: none;
   }
   .menu {
     display: flex;
@@ -115,17 +117,17 @@
   .first {
     text-align: center;
 }
-.title {
-    margin-top: 130px;
-    margin-bottom: 122px;
+.navigation {
+    padding-top: 130px;
+    padding-bottom: 122px;
 }
 .subtitle {
-    font-size: 40px;
-    font-family: 'Montserrat';
-    color: #333333;
-    text-transform: uppercase;
+  font-size: 40px;
+  font-family: 'Montserrat';
+  color: #333333;
+  text-transform: uppercase;
 }
-.undertitle {
+.text {
   display:  block;
   font-family: 'Damion';
   color: #777777;
@@ -141,8 +143,8 @@
 .services_list {
   width: 290px;
   display: flex;
-  Flex-direction:  column;
-  Align-items: center;
+  flex-direction:  column;
+  align-items: center;
 }
 .services_list::before {
   display: block;
