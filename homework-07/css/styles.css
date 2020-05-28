@@ -241,14 +241,14 @@
 input::placeholder {
   font-family: 'Montserrat';
   color: #bbbbbb;
-  font-style: 800;
+  font-weight: 800;
   font-size: 14px;
   text-transform: uppercase;
 }
 textarea::placeholder {
   font-family: 'Montserrat';
   color: #bbbbbb;
-  font-style: 800;
+  font-weight: 800;
   font-size: 14px;
   text-transform: uppercase;
 }
