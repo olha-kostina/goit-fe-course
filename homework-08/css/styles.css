@@ -75,11 +75,13 @@ html {
   margin: 0 auto;
   }
 .start  {
-  background-image: url("../img/background-mob.jpg");
+  background-color: black;
+  background-image: url("../img/background-mob.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 20px;
 }
+
 .intro {
   display: flex;
   flex-direction: column;
@@ -126,7 +128,7 @@ html {
   border: none;
   border-radius: 50px;
   font-family: 'Montserrat';
-  font-weight: 400;
+  font-weight: 600;
   color: #ffffff;
   font-size: 14px;
   text-align: center;
@@ -167,10 +169,10 @@ html {
   background-color: rgba(255, 255, 255, 0);
   width: 280px;
   height: 40px;
-  border: 1px solid #ff4e50;
+  border: 2px solid #ff4e50;
   border-radius: 50px;
   font-family: 'Montserrat';
-  font-weight: 400;
+  font-weight: 800;
   color: #ff4e50;
   font-size: 14px;
   text-align: center;
@@ -208,6 +210,108 @@ ul, li {
   padding-bottom: 25px;
   position: relative;
 }
+.photo::after {
+  content: "";
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  border: 2px solid #ff4e50;
+  z-index: 100;
+  right: 52px;
+  bottom: 23px;
+}
 img {
   border-radius: 50%;
+}
+/* tablet */
+@media  (min-width: 760px) 
+{
+.start  {
+  background-color: black;
+  background-image: url("../img/background-tab.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+}
+.area {
+  width: 670px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+.name {
+  width: 530px;
+  padding-top: 154px;
+  padding-bottom: 40px;
+  font-size: 50px;
+}
+.text {
+  font-size: 24px;
+  padding-bottom: 47px;
+  width: 404px;
+}
+.red {
+  margin-bottom: 233px;
+}
+.team {
+  padding-top: 78px;
+  font-size: 22px;
+  padding-bottom: 36px;
+}
+.catalog {
+  width: 532px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.last {
+  margin-bottom: 40px;
+}
+.teamlist {
+  padding-bottom: 60px;
+}
+.person {
+  padding-bottom: 25px;
+}
+.teamlist:nth-child(3){
+  order: 2;
+}
+.teamlist:nth-child(2){
+  order: 3;
+}
+.teamlist:nth-child(4){
+  order: 4;
+}
+}
+@media  (min-width: 1280px)  {
+  .container {
+    width: 100%;
+    max-width: 942px;
+    margin: 0 auto;
+    }
+  .start  {
+    background-color: black;
+    background-image: url("../img/background-laptop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+  }
+  .area {
+    width: 942px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+  .catalog {
+    width: 942px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .last {
+    margin-bottom: 74px;
+  }
 }
