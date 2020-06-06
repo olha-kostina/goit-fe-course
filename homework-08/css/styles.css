@@ -210,17 +210,59 @@ ul, li {
   padding-bottom: 25px;
   position: relative;
 }
-.photo::after {
+.icon::after {
   content: "";
+  background-color: #ff4e50;
+  background-image: url("../img/after1.png");
   position: absolute;
   width: 31px;
   height: 31px;
   border-radius: 50%;
-  border: 2px solid #ff4e50;
+  border: 2px solid #ffffff;
   z-index: 100;
   right: 52px;
   bottom: 23px;
 }
+.measure::after {
+  content: "";
+  background-color: #ffa507;
+  background-image: url("../img/after2.png");
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  z-index: 100;
+  right: 52px;
+  bottom: 23px;
+}
+.cup::after {
+  content: "";
+  background-color: #1cd7ad;
+  background-image: url("../img/after3.png");
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  z-index: 100;
+  right: 52px;
+  bottom: 23px;
+}
+.message::after {
+  content: "";
+  background-color: #4e73db;
+  background-image: url("../img/after4.png");
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  z-index: 100;
+  right: 52px;
+  bottom: 23px;
+}
+
 img {
   border-radius: 50%;
 }
