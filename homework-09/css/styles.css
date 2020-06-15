@@ -146,10 +146,10 @@ ul, li {
   margin-bottom: 57px;
 }
 .photo {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 25px;
   position: relative;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 20px auto;
 }
 img {
   border-radius: 50%;
@@ -164,8 +164,8 @@ img {
   border-radius: 50%;
   border: 2px solid #ffffff;
   z-index: 100;
-  right: 52px;
-  bottom: 23px;
+  right: 0px;
+  bottom: 0px;
 }
 .measure::after {
   content: "";
@@ -177,8 +177,8 @@ img {
   border-radius: 50%;
   border: 2px solid #ffffff;
   z-index: 100;
-  right: 52px;
-  bottom: 23px;
+  right: 0px;
+  bottom: 0px;
 }
 .cup::after {
   content: "";
@@ -190,8 +190,8 @@ img {
   border-radius: 50%;
   border: 2px solid #ffffff;
   z-index: 100;
-  right: 52px;
-  bottom: 23px;
+  right: 0px;
+  bottom: 0px;
 }
 .message::after {
   content: "";
@@ -203,8 +203,8 @@ img {
   border-radius: 50%;
   border: 2px solid #ffffff;
   z-index: 100;
-  right: 52px;
-  bottom: 23px;
+  right: 0px;
+  bottom: 0px;
 }
 .team {
   font-family: 'Montserrat';
