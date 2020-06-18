@@ -379,7 +379,7 @@ h3 {
     fill: red;
     background-position: contain;
   }
-  .facebook {
+  /* .facebook {
   }
   .twitter {
     background-image: url("../img/twitter.png");
@@ -389,7 +389,7 @@ h3 {
   }
   .instagram {
     background-image: url("../img/instagram.png");
-  } 
+  }  */
   .overlay-socials {
     width: 227px;
     display: flex;
