@@ -376,8 +376,9 @@ h3 {
     background-color: #95e1d3;
   }
   .svg {
+    width: 32px;
+    height: 32px;
     fill: red;
-    background-position: contain;
   }
   /* .facebook {
   }
