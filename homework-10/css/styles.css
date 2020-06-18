@@ -365,14 +365,14 @@ h3 {
     transition: transform .1s linear;
     visibility: hidden;
   }
-  .overlay__link {
+  .overlay-socials__list_link {
     display: block;
     height: 56px;
     width: 56px;
     background-color: #fce38a;
     text-decoration: none;
   }
-  .overlay__link:hover {
+  .overlay-socials__list_link:hover {
     background-color: #95e1d3;
   }
   .svg {
