@@ -441,7 +441,7 @@ hr {
 .mark {
   color: #f38181;
 }
-.answer {
+.search-block {
   display: flex;
   height: 40px;
 }
